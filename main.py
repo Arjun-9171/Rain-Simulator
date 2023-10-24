@@ -21,6 +21,7 @@ droplets = 10
 
 for i in range(droplets):
    drop = Droplet('blue', random.randint(0, 640), random.randint(0, 480), 10, 40)
+   lines.append(drop)
 
 while True:
    for event in pygame.event.get():
